@@ -1,41 +1,41 @@
-# Aplikasi Transaksi Berbasis Mobile
+# Mobile-Based Transaction Application
 
-Aplikasi mobile berbasis Android yang dirancang untuk mengelola dan memfasilitasi proses transaksi digital secara efisien, aman, dan user-friendly. Proyek ini dikembangkan menggunakan **Kotlin** dan **Gradle (Kotlin DSL)** sebagai bagian dari pemenuhan tugas akademik Teknik Informatika di Universitas Kristen Satya Wacana (UKSW).
-
----
-
-## 🚀 Fitur Utama
-* **Manajemen Transaksi Digital:** Pencatatan dan pemrosesan data transaksi secara real-time.
-* **UI/UX Modern:** Menggunakan pendekatan *User-Centered Design* dengan dukungan penuh untuk mode gelap (*Dark Mode / values-night*).
-* **Arsitektur Bersih:** Pemisahan komponen kode yang jelas untuk mempermudah pengembangan skrip pengujian otomatis ke depannya.
+An Android-based mobile application designed to manage and facilitate digital transaction processes efficiently, securely, and in a user-friendly manner. This project was developed using **Kotlin** and **Gradle (Kotlin DSL)** as part of the academic requirements for Informatics Engineering at Satya Wacana Christian University (UKSW).
 
 ---
 
-## 🛠️ Teknologi & Arsitektur
-Aplikasi ini dibangun menggunakan *tech stack* modern berikut:
-* **Bahasa Pemrograman:** Kotlin
+## 🚀 Key Features
+* **Digital Transaction Management:** Real-time recording and processing of transaction data.
+* **Modern UI/UX:** Built using a *User-Centered Design* approach with full support for dark mode theme variants (*Dark Mode / values-night*).
+* **Clean Architecture:** Clear separation of code components to facilitate the future development of automated testing scripts.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+This application is built utilizing the following modern tech stack:
+* **Programming Language:** Kotlin
 * **Build System:** Gradle Kotlin DSL (`build.gradle.kts`)
-* **Arsitektur & Desain UI:** Material Design 3 (Themes & Colors kustom)
-* **Pengujian Kode:** JUnit untuk pengujian unit fungsional (`ExampleUnitTest.kt`)
+* **UI Design & Architecture:** Material Design 3 (Custom Themes & Colors)
+* **Code Testing:** JUnit for functional unit testing (`ExampleUnitTest.kt`)
 
 ---
 
-## 📈 Metodologi Pengembangan
-Proyek ini mengadopsi prinsip **Design Thinking** dalam merancang antarmuka dan pengalaman pengguna guna memastikan aplikasi benar-benar menyelesaikan masalah esensial:
-1. **Empathize & Define:** Memahami kebutuhan pengguna dalam skenario transaksi digital.
-2. **Ideate & Prototype:** Merancang arsitektur aplikasi dan antarmuka responsif menggunakan Figma sebelum diimplementasikan ke dalam kode XML/Compose.
-3. **Test:** Validasi kualitas aplikasi melalui *Heuristic Evaluation* untuk meminimalkan kesalahan alur kerja transaksi.
+## 📈 Development Methodology
+This project adopts **Design Thinking** principles in designing the user interface and user experience to ensure the application genuinely solves essential problems:
+1. **Empathize & Define:** Understanding user needs within digital transaction scenarios.
+2. **Ideate & Prototype:** Designing the application architecture and responsive interfaces using Figma before implementing them into XML/Compose code.
+3. **Test:** Validating application quality through *Heuristic Evaluation* to minimize friction in the transaction workflow.
 
 ---
 
-## 💻 Cara Menjalankan Proyek di Lokal
+## 💻 Local Setup Guide
 
-### Prasyarat
-* Android Studio (versi terbaru disarankan Jellyfish atau yang lebih baru)
-* Android SDK level minimum sesuai dengan konfigurasi `build.gradle.kts`
-* Gradle versi 8.0+
+### Prerequisites
+* Android Studio (Latest version recommended, such as Jellyfish or newer)
+* Minimum Android SDK level matching the `build.gradle.kts` configuration
+* Gradle version 8.0+
 
-### Langkah Instalasi
-1. Kloning repositori ini ke komputer lokal Anda:
+### Installation Steps
+1. Clone this repository to your local machine:
    ```bash
    git clone [https://github.com/johanes-dotcom/apk-mobile.git](https://github.com/johanes-dotcom/apk-mobile.git)
